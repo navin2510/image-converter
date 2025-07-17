@@ -60,7 +60,7 @@ class SimpleImageConverter:
             except Exception as e:
                 self.label.config(text="Conversion failed")
 
-# ⚠️ Important: Call this only once per notebook session
+
 root = Tk()
 app = SimpleImageConverter(root)
 root.mainloop()
